@@ -1,0 +1,46 @@
+(footprint "SMTSO25" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 25b58e91-e1a9-4f66-b7ac-a88e9c380378)
+  )
+  (fp_text value "SMTSO25" (at 0 4 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6f6c5aaa-b8e5-431c-9766-86114e26166b)
+  )
+  (fp_text user "${REFERENCE}" (at 0 5.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 34b4d4ab-b6b9-4fc3-b796-9ee1fb56407e)
+  )
+  (fp_poly
+    (pts
+      (arc (start -3.00258 0.272962) (mid -2.141481 2.122275) (end -0.3 2.999999))
+      (arc (start -0.2 2.2) (mid -1.56205 1.56205) (end -2.2 0.2))
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp efa83b30-6db2-44bd-a55a-595147d430b6))
+  (fp_poly
+    (pts
+      (arc (start -2.2 -0.2) (mid -1.558984 -1.56511) (end -0.191371 -2.200767))
+      (arc (start -0.261185 -3.003628) (mid -2.118072 -2.145638) (end -2.999999 -0.3))
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 167a5f0e-a2ff-43dc-a65c-dcf39a4b1e95))
+  (fp_poly
+    (pts
+      (arc (start 0.272962 3.00258) (mid 2.122275 2.141481) (end 2.999999 0.3))
+      (arc (start 2.2 0.2) (mid 1.56205 1.56205) (end 0.2 2.2))
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp f4319f5b-f8ee-4856-8f3c-7818a8f66a70))
+  (fp_poly
+    (pts
+      (arc (start 3.003628 -0.261185) (mid 2.145638 -2.118072) (end 0.3 -2.999999))
+      (arc (start 0.2 -2.2) (mid 1.56511 -1.558984) (end 2.200767 -0.191371))
+    )
+
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 678d802e-c3ba-4f1c-acfa-8dee05697539))
+  (pad "" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 4.22) (layers "*.Cu" "*.Mask")
+    (zone_connect 2) (tstamp 1ae0ef10-d735-4881-86c1-2055a2ba83bc))
+)
