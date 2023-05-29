@@ -43,4 +43,9 @@
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.Paste") (tstamp 678d802e-c3ba-4f1c-acfa-8dee05697539))
   (pad "" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 4.22) (layers "*.Cu" "*.Mask")
     (zone_connect 2) (tstamp 1ae0ef10-d735-4881-86c1-2055a2ba83bc))
+  (model "${KIPRJMOD}/parts.pretty/SMTSO2530.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
